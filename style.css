@@ -1,0 +1,90 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body{
+    width: auto;
+}
+
+main {
+    width: 50%;
+    margin : 50px auto 0px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    /* or 143% */
+}
+
+.gradient {
+    padding: 20px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 22px;
+    /* identical to box height, or 173% */
+    letter-spacing: -0.05em;
+}
+
+.number {
+
+    font-weight: 800;
+    font-size: 97px;
+    padding: 5px 0 15px;
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D2D2D2;
+}
+
+.text {
+    padding: 20px;
+}
+
+#textp {
+    margin: 0;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+.calculate-button {
+    background: rgba(31, 41, 55, 0.5);
+    border-radius: 15px;
+    border : 0px ;
+    padding: 5px 10px;
+    color : rgba(255, 255, 255, 0.751);
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+.calculate-button:active {
+    box-shadow: 0 0 5px rgba(255, 250, 250, 0.324);
+}
