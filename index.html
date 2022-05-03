@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit Convertor</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <main>
-        <div class="gradient">
-            <h1>Metric/Imperial unit conversion</h1>
-            <!-- <form id="form" > -->
-                <p id = "textp"><input type="text" id = "number" class="number" value="0" autocomplete="off"></p>
-                <button class="calculate-button" onclick="calculate()">Calculate</button>
-            <!-- </form> -->
-        </div>
-        <div class="text">
-            <h3>Length (Meter/Feet)</h3>
-            <p class="sub"><span class="input">0</span> meters = <span id="meterstofeet">0</span> feet | <span class="input">0</span> feet = <span id="feettometers">0</span> meters</p>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My TODO App</h1>
+      <div class="flow-right controls">
+        <span>Item count: <span id="item-count">0</span></span>
+        <span>Unchecked count: <span id="unchecked-count">0</span></span>
+      </div>
+      <br>
+      <br>
+      <center>
+      <div>
+        
+          <input type="text" id="input" ><br><br>
+          <button class="button center" onClick="newTodo()">New TODO</button>
+        
+      </div>
 
-            <h3>Volume (Liter/Gallons)</h3>
-            <p class="sub"><span class="input">0</span> liters = <span id="literstogallons">0</span> gallons | <span class="input">0</span> gallons = <span id="gallonstoliters">0</span> liters</p>
-
-            <h3>Mass (Kilograms/Pounds)</h3>
-            <p class="sub"><span class="input">0</span> kilos = <span id="kilostopounds">0</span> pounds | <span class="input">0</span> pounds = <span id="poundstokilos">0</span> kilos</p>
-        </div>
-    </main>
-    <script src="index.js"></script>
-</body>
+      <ul id="todo-list" class="todo-list"></ul>
+    </center>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
